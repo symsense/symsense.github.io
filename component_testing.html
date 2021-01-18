@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SymSense - Blog</title>
+  <title>SymSense - Blog Post</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">SymSense</a>
+      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -39,10 +39,13 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="post.html">Sample Post</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -50,79 +53,41 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home.jpg')">
+  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>Blog</h1>
-            <span class="subheading">Follow our progress</span>
+          <div class="post-heading">
+            <h1>Component Testing</h1>
+            <h2 class="subheading">Engineering Playtime</h2>
+            <span class="meta">Posted by
+              <a href="#">Morgan Yeung</a>
+              on January 07, 2021</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="component_testing.html">
-            <h2 class="post-title">
-              Product Testing
-            </h2>
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Coming into 2021, we moved out of the design phase, and had all of our parts purchased.  Now, we had to make sure that they all worked and can be integrated together.</p>
+          <h2 class="section-heading">First Prototype</h2>
+          <a href="#">
+            <img class="img-fluid" src="img/component_testing.jpg" alt="">
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Symsense</a>
-            on Feb 27, 2021</p>
+          <span class="caption text-muted">Wired up prototype</span>
+          <p> With that wired up, I proceeded to write classes for each of them to test them out in Python.  With all the components individually working, it was time to mechanically and electrically assmeble them together and work on the final solution </p>
         </div>
-        <hr>
-        <div class="post-preview">
-          <a href="component_testing.html">
-            <h2 class="post-title">
-              Integration
-            </h2>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Alexandra and Anna</a>
-            on Jan 17, 2021</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="mlmodels.html">
-            <h2 class="post-title">
-              Mask Detection
-            </h2>
-            <h3 class="post-subtitle">
-              Machine Learning Models
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Shawn</a>
-            on Someday</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="component_testing.html">
-            <h2 class="post-title">
-              Component Testing
-            </h2>
-            <h3 class="post-subtitle">
-              Engineering Playtime
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Morgan Yeung</a>
-            on Jan 07, 2021</p>
-        </div>
-        <hr>
-        <!-- Pager -->
       </div>
     </div>
-  </div>
+  </article>
 
+  <hr>
 
   <!-- Footer -->
   <footer>
@@ -155,7 +120,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; SymSense 2021</p>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
         </div>
       </div>
     </div>
