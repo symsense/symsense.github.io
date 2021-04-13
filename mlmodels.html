@@ -72,30 +72,27 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Coming into 2021, we moved out of the design phase, and had all of our parts purchased.  Now, we had to make sure that they all worked and can be integrated together.</p>
-          <h2 class="section-heading">First Prototype</h2>
-          <a href="#">
-            <img class="img-fluid" src="img/component_testing.jpg" alt="">
-          </a>
-          <span class="caption text-muted">Wired up prototype</span>
-          <p> With that wired up, I proceeded to write classes for each of them to test them out in Python.  This meant reading from the temperature sensor, controlling both the pump and the servo motor and of course, accessing the camera feed.  With all the components individually working, it was time to mechanically and electrically assmeble them together and work on the final solution.</p>
-          <p>Below are videos of each component working.</p>
+          <h2 class="section-heading">Mask Detection</h2>
+            <p>Trained the model using 5000 images of masked and non-masked idividuals, to build a neural network to decide whether or not the image contains a person wearing a mask. Results are shown below: </p>
 
-          <video width="320" height="240" controls>
-            <source src="vid/camera_test.mp4" type="video/mp4">
-          </video>
-          <video width="320" height="240" controls>
-            <source src="vid/IR-sensor_Test.mp4" type="video/mp4">
-          </video>
-          <video width="320" height="240" controls>
-            <source src="vid/motor-test.mp4" type="video/mp4">
-          </video>
-          <video width="320" height="240" controls>
-            <source src="vid/pump_test.mp4" type="video/mp4">
-          </video>
-          <video width="320" height="240" controls>
-            <source src="vid/screen-test.mp4" type="video/mp4">
-          </video>
+
+          <a href="#">
+            <img class="img-fluid" src="img/alex_m.png" alt="">
+            <img class="img-fluid" src="img/morgan_m.png" alt="">
+            <img class="img-fluid" src="img/anna_m.png" alt="">
+          </a>
+          <span class="caption text-muted"></span>
+          <h2 class="section-heading">Mouth and Nose Detection</h2>
+          <p>Nose and Mouth Detection was done using haar cascade classifiers.  The results were quite successful, shown below </p>
+
+
+          <a href="#">
+            <img class="img-fluid" src="img/alex_nm.png" alt="">
+            <img class="img-fluid" src="img/morgan_nm.png" alt="">
+            <img class="img-fluid" src="img/anna_nm.png" alt="">
+
+          </a>
+
         </div>
       </div>
     </div>
